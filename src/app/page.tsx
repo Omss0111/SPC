@@ -8,16 +8,6 @@ import AnalysisResults from "./AnalysisResults";
 import { calculateAnalysisData } from "./spcUtils";
 import { FormState, InspectionData, AnalysisData } from "@/types";
 
-import { SignIn } from '@clerk/nextjs';
-
-export default function SignInPage() {
-  return <SignIn />;
-}
-import { SignUp } from '@clerk/nextjs';
-
-export default function SignUpPage() {
-  return <SignUp />;
-}
 
 
 
