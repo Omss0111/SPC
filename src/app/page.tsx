@@ -8,6 +8,19 @@ import AnalysisResults from "./AnalysisResults";
 import { calculateAnalysisData } from "./spcUtils";
 import { FormState, InspectionData, AnalysisData } from "@/types";
 
+import { SignIn } from '@clerk/nextjs';
+
+export default function SignInPage() {
+  return <SignIn />;
+}
+import { SignUp } from '@clerk/nextjs';
+
+export default function SignUpPage() {
+  return <SignUp />;
+}
+
+
+
 export default function SPCAnalysisPage() {
   // State management
   const [loading, setLoading] = useState<boolean>(false);
